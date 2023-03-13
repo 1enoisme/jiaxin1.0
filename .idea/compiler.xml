@@ -11,8 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wangyu-cloud (1)" target="1.8" />
       <module name="wangyu-cloud (2)" target="1.5" />
+      <module name="wangyu-dependencies" target="1.8" />
+      <module name="wangyu-dependencies (1)" target="1.5" />
       <module name="wangyu-module-system" target="1.8" />
       <module name="wangyu-module-system-api" target="1.8" />
       <module name="wangyu-module-system-biz" target="1.8" />

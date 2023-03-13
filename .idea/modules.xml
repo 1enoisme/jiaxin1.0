@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/wangyu-cloud (1).iml" filepath="$PROJECT_DIR$/wangyu-cloud (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/wangyu-dependencies/wangyu-cloud (2).iml" filepath="$PROJECT_DIR$/wangyu-dependencies/wangyu-cloud (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/wangyu-dependencies.iml" filepath="$PROJECT_DIR$/wangyu-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wangyu-dependencies/wangyu-dependencies (1).iml" filepath="$PROJECT_DIR$/wangyu-dependencies/wangyu-dependencies (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/wangyu-module-system/wangyu-module-system.iml" filepath="$PROJECT_DIR$/wangyu-module-system/wangyu-module-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/wangyu-module-system/wangyu-module-system-api/wangyu-module-system-api.iml" filepath="$PROJECT_DIR$/wangyu-module-system/wangyu-module-system-api/wangyu-module-system-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wangyu-module-system/wangyu-module-system-biz/wangyu-module-system-biz.iml" filepath="$PROJECT_DIR$/wangyu-module-system/wangyu-module-system-biz/wangyu-module-system-biz.iml" />
