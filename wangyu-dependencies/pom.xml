@@ -114,6 +114,13 @@
             </dependency>
 
 
+            <!-- Web 相关 -->
+            <dependency>
+                <groupId>cn.wangyua.cloud</groupId>
+                <artifactId>wangyu-springboot-starter-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
@@ -139,7 +146,13 @@
                 <version>${swagger-annotations.version}</version>
             </dependency>
 
+
             <!-- DB 相关 -->
+            <dependency>
+                <groupId>cn.wangyua.cloud</groupId>
+                <artifactId>wangyu-springboot-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -333,7 +346,12 @@
             <!-- 工作流相关结束 -->
 
             <!-- 工具类相关 -->
-
+            <!-- 工具类相关 -->
+            <dependency>
+                <groupId>cn.wangyua.cloud</groupId>
+                <artifactId>wangyu-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
 
             <dependency>
