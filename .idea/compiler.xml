@@ -18,8 +18,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.3.Final/mapstruct-1.5.3.Final.jar" />
         </processorPath>
         <module name="wangyu-springboot-starter-web" />
-        <module name="wangyu-common" />
         <module name="wangyu-module-system-api" />
+        <module name="wangyu-common" />
         <module name="wangyu-module-system-biz" />
         <module name="wangyu-springboot-starter-mybatis" />
       </profile>
