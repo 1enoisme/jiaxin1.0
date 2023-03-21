@@ -2,6 +2,7 @@ package cn.wangyua.cloud.framkework.common.pojo;
 
 import cn.wangyua.cloud.framkework.common.Excepiton.ErrorCode;
 import cn.wangyua.cloud.framkework.common.Excepiton.enums.GlobalErrorCodeConstants;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 import lombok.Data;
 import org.springframework.util.Assert;
@@ -63,5 +64,10 @@ public class CommonResult<T> implements Serializable {
     public boolean isSuccess(Integer code){
         return Objects.equals(code,GlobalErrorCodeConstants.SUCCESS.getCode());
     }
+    @JsonIgnore
+    public boolean isSuccess(){return isSuccess(code);}
+
+    @JsonIgnore
+    public boolean isError(){return !isSuccess();}
 
 }
